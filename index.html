@@ -62,13 +62,11 @@
             let date = new Date(2021, 10, 03);
             let currentDate = new Date();
 
-            let result = currentDate - date;
-			<!-- let result = date - currentDate; !-->
+            let result = date - currentDate;
             let misec = 24 * 60 * 60 * 1000;
 			
 	
-			result = (result <= 0)? 0 : (parseInt(result / misec) * -1);
-            <!-- result = (result <= 0)? 0 : (parseInt(result / misec) + 1); !-->
+			result = (result <= 0)? 0 : (parseInt(result / misec) + 1);
 
             $("#d-day").html(result);
         });
