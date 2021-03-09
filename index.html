@@ -76,7 +76,7 @@
 			//종료일자에서 현재일자를 뺸 시간
 			var dday = countDownDate - now;
 		
-			var result = Math.floor(dday/(1000*60*60*24));
+			var result = Math.floor(parseInt(dday/(1000*60*60*24))+1);
 
             $("#d-day").html(result); 
         });
