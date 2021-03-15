@@ -5,26 +5,18 @@
 @font-face {
   font-family: 'NanumMyeongjo-r';
   src: url('../font/NanumMyeongjo-Regular.ttf') format('truetype');
-    /* src: url('https://drive.google.com/uc?id=1k3O3L5LiuFKMNxzGDeL-4cISM3aJZTrt') format('truetype'); */
-
 }
 @font-face {
   font-family: 'NanumMyeongjo-e';
   src: url('../font/NanumMyeongjo-ExtraBold.ttf') format('truetype');
-    /* src: url('https://drive.google.com/uc?id=1xC0KqTZ6RTixrPfj38ZZU7rRk7KFVmgY') format('truetype'); */
-
 }
 @font-face {
   font-family: 'NanumMyeongjo-b';
   src: url('../font/NanumMyeongjo-Bold.ttf') format('truetype');
-    /* src: url('https://drive.google.com/uc?id=1Fn8g7_mnHsPOUddEjPcxftKXMeWTwyOL') format('truetype'); */
-
 }
 @font-face {
   font-family: 'DancingScript-b';
   src: url('../font/DancingScript-Bold.ttf') format('truetype');
-    /* src: url('https://drive.google.com/uc?id=1SRlMfu9Mkk4FehHlYpWMBDZOCH1FbNmH') format('truetype'); */
-
 }
 
 /* Links */
